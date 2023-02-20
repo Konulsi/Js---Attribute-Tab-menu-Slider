@@ -1,0 +1,76 @@
+
+.click-btn{
+    margin-top: 20px;
+    margin-left: 100px;
+} 
+
+
+.modals {
+    position: absolute;
+    left: 35%;
+    top: 150px;
+    height: 300px;
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 1s;
+    z-index: 1 !important;
+    background-color: white;
+}
+
+
+.modals .tittle {
+    padding: 10px;
+}
+
+
+.modals .tittle i{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    font-size: 25px;
+    color: #5e5757c7;
+}
+
+.modals .text {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+    color: #716868eb;
+}
+
+
+
+.buttons {
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 250px;
+    right: 0;
+    margin-top: 60px;
+}
+
+.buttons .saveBtn{
+    margin-left: 30px;
+}
+
+
+
+.hide-modals{
+    transform: translateY(-500px) !important;
+}
+
+
+
+#overlay {
+    position: fixed;
+    display: none; 
+    width: 100%;
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    cursor: pointer; 
+  }
